@@ -1,0 +1,43 @@
+#scroodle {
+font-family: Poor Richard;
+font-size: 60px;
+COLOR: black;
+text-align: center;
+margin: 0;
+}
+
+#doodle {
+	font-family: Garamond;
+	font-size: 20px;
+	COLOR: black;
+	text-align: center;
+
+}
+
+#doo {
+	display: block;
+	margin: auto;
+	border: 2px dotted black;
+}
+
+#tops {
+	border: 2px solid black;
+	border-bottom: 0;
+	padding: 15px;
+	background-image: url("http://socalmountains.com/e107_plugins/autogallery/Gallery/HISTORIC%20BIG%20BEAR%20PHOTOS/the_malt_shop.JPG");opacity: 0.5;
+		height: 50%;
+	
+}
+
+#inner-tops {
+	/*opacity: 100%;*/
+	/*background-color: none;*/
+}
+
+
+#bottoms {
+	border: 2px solid black;
+	border-top: 0;
+	padding: 15px;
+	
+}
