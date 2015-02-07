@@ -1,3 +1,7 @@
+body {
+	/*margin: 0;*/
+}
+
 #scroodle {
 font-family: Poor Richard;
 font-size: 60px;
@@ -20,18 +24,35 @@ margin: 0;
 	border: 2px dotted black;
 }
 
+.outside-tops {
+    position: relative;
+    overflow: hidden;
+    /* position: absolute; */
+}
+
 #tops {
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	border-bottom: 0;
-	padding: 15px;
-	background-image: url("http://socalmountains.com/e107_plugins/autogallery/Gallery/HISTORIC%20BIG%20BEAR%20PHOTOS/the_malt_shop.JPG");opacity: 0.5;
-		height: 50%;
+	/* padding: 15px; */
+	background-image: url("http://socalmountains.com/e107_plugins/autogallery/Gallery/HISTORIC%20BIG%20BEAR%20PHOTOS/the_malt_shop.JPG");
+	opacity: 0.5;
+		
+	height: 72px;
 	
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	background-size: 100%;
+	background-position-y: 65%;
 }
 
 #inner-tops {
 	/*opacity: 100%;*/
 	/*background-color: none;*/
+	/* position: relative; */
+	/* clear: both; */
+	/* display: block; */
+	border: 2px solid black;
 }
 
 
