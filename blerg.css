@@ -11,7 +11,7 @@ margin: 0;
 }
 
 #doodle {
-	font-family: Garamond;
+	font-family: Tahoma;
 	font-size: 20px;
 	COLOR: black;
 	text-align: center;
@@ -34,7 +34,7 @@ margin: 0;
 	/* border: 2px solid black; */
 	border-bottom: 0;
 	/* padding: 15px; */
-	background-image: url("http://socalmountains.com/e107_plugins/autogallery/Gallery/HISTORIC%20BIG%20BEAR%20PHOTOS/the_malt_shop.JPG");
+	background-image: url("http://fallsavenueresort.com/wp-content/uploads/2014/05/always-refreshing-soda-shop.jpg");
 	opacity: 0.5;
 		
 	height: 72px;
